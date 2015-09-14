@@ -20,4 +20,20 @@
         android:maxLines="13"
         android:textIsSelectable="true"
         android:scrollbars="vertical" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Ring"
+        android:id="@+id/btnCheck"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Prefs"
+        android:id="@+id/btnPrefs"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnCheck" />
 </RelativeLayout>
